@@ -1,2 +1,3 @@
-# ccextractor_gui
-this is ccextractor gui for linux
+# CCExtractor GUI for linux
+This is ccextractor gui for linux
+
