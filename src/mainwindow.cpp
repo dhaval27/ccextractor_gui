@@ -1,4 +1,4 @@
-#include "mainwindow.h"
+#include "cc_gui.h"
 #include "ui_mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -73,7 +73,6 @@ void MainWindow::getInputFile()
 	inputText= ui->textEdit_2->toPlainText();
 	qDebug()<<"received text"<<inputText;
 
-	int k=0;
 	size=inputText.size();
 	qDebug()<<"size ="<<size;
 

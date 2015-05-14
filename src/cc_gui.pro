@@ -8,13 +8,13 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = tab
+TARGET = CCExtractorGUI
 TEMPLATE = app
 
 
 SOURCES += main.cpp\
         mainwindow.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += cc_gui.h
 
-FORMS    += mainwindow.ui
+FORMS    += cc_gui.ui
